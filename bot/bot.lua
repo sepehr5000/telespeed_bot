@@ -243,7 +243,7 @@ function create_config( )
       --"arabic"
      },
     sudo_users = {64101884},--ایدی خود را در کادر روبرو بجای 158990680 بگذارید
-    admin_users = {},
+    admin_users = {64101884},
     disabled_channels = {}
   }
   serialize_to_file(config, './data/config.lua')
